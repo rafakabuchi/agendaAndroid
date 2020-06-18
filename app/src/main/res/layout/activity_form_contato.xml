@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormContatoActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgFoto"
+        android:src="@drawable/ic_person_pink_200dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </ImageView>
+    <EditText
+        android:id="@+id/txtNome"
+        android:hint="Nome: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        </EditText>
+<EditText
+    android:id="@+id/txtTelefone"
+    android:hint="Telefone: "
+    android:inputType="phone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+</EditText>
+    <EditText
+        android:id="@+id/txtEmail"
+        android:hint="E-mail:"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:id="@+id/txtEndereco"
+        android:hint="Endereço: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <Button
+        android:id="@+id/btSalvar"
+        android:text="Salvar"
+        android:layout_gravity="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+            </Button>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_item_atualizar" android:title="atualizar">
+    </item>
+    <item android:id="@+id/menu_item_excluir" android:title="excluir">
+    </item>
+    <item android:id="@+id/menu_item_mapa" android:title="exibir no mapa">
+    </item>
+    <item android:id="@+id/menu_item_sms" android:title="sms">
+    </item>
+    <item android:id="@+id/menu_item_email" android:title="e-mail">
+    </item>
+    <item android:id="@+id/menu_item_licacao" android:title="ligar para contato">
+    </item>
+
+</menu>
